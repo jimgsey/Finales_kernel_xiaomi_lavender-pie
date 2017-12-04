@@ -17,4 +17,8 @@ config QCA_CLD_WLAN_PROFILE
 
 	  Profiles are located at drivers/staging/qcacld-3.0/configs.
 
+config WLAN_FEATURE_FILS
+	bool "Enable FILS_SK feature"
+	default n
+
 endif # QCA_CLD_WLAN
