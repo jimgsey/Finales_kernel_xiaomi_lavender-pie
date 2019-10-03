@@ -51,6 +51,12 @@ Module.symvers
 /vmlinuz
 /System.map
 /Module.markers
+/out
+/toolchain
+/toolchains
+xx.sh
+linux-stable.sh
+net/wireguard/
 
 #
 # Debian directory (make deb-pkg)
