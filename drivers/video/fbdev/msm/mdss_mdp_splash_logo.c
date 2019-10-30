@@ -286,9 +286,8 @@ int mdss_mdp_splash_cleanup(struct msm_fb_data_type *mfd,
 	/* 1-to-1 mapping */
 	mdss_mdp_splash_iommu_attach(mfd);
 
-	if ((use_borderfill && mdp5_data->handoff &&
-		!mfd->splash_info.iommu_dynamic_attached) ||
-		mfd->force_null_commit) {
+	if (use_borderfill && mdp5_data->handoff &&
+		!mfd->splash_info.iommu_dynamic_attached) {
 		/*
 		 * Set up border-fill on the handed off pipes.
 		 * This is needed to ensure that there are no memory
