@@ -57,6 +57,8 @@ Module.symvers
 xx.sh
 linux-stable.sh
 net/wireguard/
+pp.sh
+qq.sh
 
 #
 # Debian directory (make deb-pkg)
